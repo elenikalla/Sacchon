@@ -7,7 +7,7 @@ import lombok.Setter;
 @Setter
 @Getter
 @AllArgsConstructor
-public class Patient {
+public class ChiefDoctor {
     private int id;
     private String username;
     private String password;
