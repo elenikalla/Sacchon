@@ -5,15 +5,18 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.Date;
+
 @Setter
 @Getter
 @AllArgsConstructor
-public class ChiefDoctor {
+public class Consultation {
     @Id
     private int id;
 
-    private String username;
-    private String password;
-    private String firstName;
-    private String lastName;
+    private Date timeCreated;
+    private String consultationComment;
+    private Date timeSeen;
+
+
 }
