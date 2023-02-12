@@ -20,7 +20,7 @@ public class Patient {
     private int amkaCode;
     private LocalDate dateOfBirth;
     private boolean hasRecordings;
-    @ManyToOne (fetch = FetchType.LAZY,optional = false)
-    @JoinColumn(name ="doctor_id",nullable=false)
+    @ManyToOne (fetch = FetchType.LAZY)
+    @JoinColumn(name ="doctor_id")
     private Doctor currentDoctor;
 }
