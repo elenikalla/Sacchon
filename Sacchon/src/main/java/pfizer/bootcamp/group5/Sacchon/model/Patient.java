@@ -6,7 +6,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-
+import java.util.List;
 
 
 @Getter
@@ -18,6 +18,12 @@ public class Patient {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
+    private String fullName;
+
+    @OneToMany(mappedBy="patient")
+    private List<Consultation> consultations;
+
+
 }
 
 
