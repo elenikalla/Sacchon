@@ -20,5 +20,5 @@ public class Doctor {
     String fullName;
 
     @OneToMany(fetch = FetchType.LAZY, mappedBy = "currentDoctor")
-    private List<Patient> managedPatients;
+    private Set<Patient> managedPatients;
 }
