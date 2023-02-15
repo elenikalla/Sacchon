@@ -21,6 +21,6 @@ public class Patient {
     private LocalDate dateOfBirth;
     private boolean hasRecordings;
     @ManyToOne (fetch = FetchType.LAZY)
-    @JoinColumn(name ="doctor_id")
+    @JoinColumn(name ="doctor_id",referencedColumnName="id")
     private Doctor currentDoctor;
 }
