@@ -45,7 +45,6 @@ public class PatientServiceImpl implements PatientService {
         Optional<Patient> patientOptional = patientRepository.findById(id);
         if (patientOptional.isPresent())
             return new PatientDto(patientOptional.get().getUsername(),patientOptional.get().getAmkaCode(),patientOptional.get().getFirstName(),patientOptional.get().getLastName());
-        ;
         throw new PatientException("Patient not found "+ id);
     }
 }

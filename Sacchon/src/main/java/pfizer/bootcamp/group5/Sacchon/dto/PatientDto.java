@@ -5,8 +5,6 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import pfizer.bootcamp.group5.Sacchon.model.Patient;
 
-import java.time.LocalDate;
-
 @NoArgsConstructor
 @Setter
 @Getter

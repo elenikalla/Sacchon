@@ -4,26 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="099d1c2d-2fe9-4d0d-84bb-abe2b4d4905f" name="Changes" comment="Doctor &amp; ChiefDoctor models + Repositories + Initial Configuration">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/fc457f10-ce6d-448d-bddf-63101738c24a/storage_v2/_src_/database/Sacchon.OfbM0Q/schema/dbo.sYMBAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sacchon/src/main/java/pfizer/bootcamp/group5/Sacchon/configuration/InitialConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sacchon/src/main/java/pfizer/bootcamp/group5/Sacchon/repository/ChiefDoctorRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sacchon/src/main/java/pfizer/bootcamp/group5/Sacchon/repository/DoctorRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fc457f10-ce6d-448d-bddf-63101738c24a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fc457f10-ce6d-448d-bddf-63101738c24a.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_microsoft_sqlserver_mssql_jdbc_8_2_1_jre8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_microsoft_sqlserver_mssql_jdbc_11_2_3_jre17.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_classgraph_classgraph_4_8_147.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_smallrye_jandex_3_0_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_6_0_6_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_6_0_2_Final.xml" afterDir="false" />
+    <list default="true" id="099d1c2d-2fe9-4d0d-84bb-abe2b4d4905f" name="Changes" comment="Changed typo errors in Doctor/Patiend and artifact">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_3_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_webjars_locator_core_0_52.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sacchon/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Sacchon/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sacchon/src/main/java/pfizer/bootcamp/group5/Sacchon/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sacchon/src/main/java/pfizer/bootcamp/group5/Sacchon/model/ChiefDoctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sacchon/src/main/java/pfizer/bootcamp/group5/Sacchon/model/ChiefDoctor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sacchon/src/main/java/pfizer/bootcamp/group5/Sacchon/model/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sacchon/src/main/java/pfizer/bootcamp/group5/Sacchon/model/Doctor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sacchon/src/main/java/pfizer/bootcamp/group5/Sacchon/model/Patient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sacchon/src/main/java/pfizer/bootcamp/group5/Sacchon/model/PatientRecords.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sacchon/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sacchon/src/main/java/pfizer/bootcamp/group5/Sacchon/configuration/InitialConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sacchon/src/main/java/pfizer/bootcamp/group5/Sacchon/configuration/InitialConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sacchon/src/main/java/pfizer/bootcamp/group5/Sacchon/model/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sacchon/src/main/java/pfizer/bootcamp/group5/Sacchon/model/Patient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sacchon/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Sacchon/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,15 +20,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="middle" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -91,11 +77,12 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Stavros/Downloads/Pfizer Software & Cloud Engineering Bootcamp/Sacchon",
+    "last_opened_file_path": "C:/Users/afxin/IdeaProjects/Sacchon",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "spring.configuration.checksum": "5e76792dfeb4f50dbf4f98a2cae2e41f",
     "vue.rearranger.settings.migration": "true"
   },
@@ -111,6 +98,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\afxin\IdeaProjects\Sacchon\Sacchon\src\main\java\pfizer\bootcamp\group5\Sacchon\service" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Stavros\Downloads\Pfizer Software &amp; Cloud Engineering Bootcamp\Sacchon\Sacchon\src\main\resources\META-INF" />
     </key>
@@ -139,6 +129,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -154,6 +148,11 @@
       <workItem from="1676051900660" duration="9593000" />
       <workItem from="1676066436592" duration="2116000" />
       <workItem from="1676295367557" duration="2616000" />
+      <workItem from="1676556834542" duration="3917000" />
+      <workItem from="1676716388290" duration="976000" />
+      <workItem from="1676719212822" duration="959000" />
+      <workItem from="1676724667868" duration="14327000" />
+      <workItem from="1676806062883" duration="2445000" />
     </task>
     <task id="LOCAL-00001" summary="Maven dependencies">
       <created>1675961589568</created>
@@ -183,7 +182,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676068482603</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Changed typo errors in Doctor/Patiend and artifact">
+      <created>1676555796128</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676555796128</updated>
+    </task>
+    <task id="LOCAL-00006" summary="created patientDto, createPatient(),readPatientById endpoints/services">
+      <created>1676808315934</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676808315934</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +218,8 @@
     <MESSAGE value="Maven dependencies + first models" />
     <MESSAGE value="Initial models + persistence file + Database add" />
     <MESSAGE value="Doctor &amp; ChiefDoctor models + Repositories + Initial Configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Doctor &amp; ChiefDoctor models + Repositories + Initial Configuration" />
+    <MESSAGE value="Changed typo errors in Doctor/Patiend and artifact" />
+    <MESSAGE value="created patientDto, createPatient(),readPatientById endpoints/services" />
+    <option name="LAST_COMMIT_MESSAGE" value="created patientDto, createPatient(),readPatientById endpoints/services" />
   </component>
 </project>

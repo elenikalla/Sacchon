@@ -5,10 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 import pfizer.bootcamp.group5.Sacchon.dto.PatientDto;
 import pfizer.bootcamp.group5.Sacchon.exception.PatientException;
-import pfizer.bootcamp.group5.Sacchon.model.Patient;
 import pfizer.bootcamp.group5.Sacchon.service.PatientService;
-
-import java.util.List;
 
 @RestController
 @Slf4j
