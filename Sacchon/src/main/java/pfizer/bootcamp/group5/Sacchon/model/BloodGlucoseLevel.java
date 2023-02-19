@@ -27,6 +27,6 @@ public class BloodGlucoseLevel {
     @Column(name="BGL_measurement")
     private Double measurement;
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
-    @JoinColumn(name="fk_patient_id",nullable=false)
+    @JoinColumn(name = "patient_id", referencedColumnName = "id")
     private Patient patient;
 }
