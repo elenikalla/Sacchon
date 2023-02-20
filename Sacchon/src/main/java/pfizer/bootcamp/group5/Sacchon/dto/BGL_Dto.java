@@ -1,11 +1,16 @@
 package pfizer.bootcamp.group5.Sacchon.dto;
 
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 import pfizer.bootcamp.group5.Sacchon.model.BloodGlucoseLevel;
 import pfizer.bootcamp.group5.Sacchon.model.Patient;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
-
+@Setter
+@Getter
+@NoArgsConstructor
 public class BGL_Dto {
 
     private int id;
