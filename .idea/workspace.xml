@@ -5,26 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="099d1c2d-2fe9-4d0d-84bb-abe2b4d4905f" name="Changes" comment="Doctor &amp; ChiefDoctor models + Repositories + Initial Configuration">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/fc457f10-ce6d-448d-bddf-63101738c24a/storage_v2/_src_/database/Sacchon.OfbM0Q/schema/dbo.sYMBAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sacchon/src/main/java/pfizer/bootcamp/group5/Sacchon/configuration/InitialConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sacchon/src/main/java/pfizer/bootcamp/group5/Sacchon/repository/ChiefDoctorRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sacchon/src/main/java/pfizer/bootcamp/group5/Sacchon/repository/DoctorRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fc457f10-ce6d-448d-bddf-63101738c24a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fc457f10-ce6d-448d-bddf-63101738c24a.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_microsoft_sqlserver_mssql_jdbc_8_2_1_jre8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_microsoft_sqlserver_mssql_jdbc_11_2_3_jre17.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_classgraph_classgraph_4_8_147.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_smallrye_jandex_3_0_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_6_0_6_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_6_0_2_Final.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_3_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_webjars_locator_core_0_52.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sacchon/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Sacchon/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sacchon/src/main/java/pfizer/bootcamp/group5/Sacchon/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sacchon/src/main/java/pfizer/bootcamp/group5/Sacchon/model/ChiefDoctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sacchon/src/main/java/pfizer/bootcamp/group5/Sacchon/model/ChiefDoctor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sacchon/src/main/java/pfizer/bootcamp/group5/Sacchon/model/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sacchon/src/main/java/pfizer/bootcamp/group5/Sacchon/model/Doctor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sacchon/src/main/java/pfizer/bootcamp/group5/Sacchon/model/Patient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sacchon/src/main/java/pfizer/bootcamp/group5/Sacchon/model/PatientRecords.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sacchon/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sacchon/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Sacchon/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Afroditi" />
+        <entry key="$PROJECT_DIR$" value="middle" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -82,34 +63,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Stavros/Downloads/Pfizer Software &amp; Cloud Engineering Bootcamp/Sacchon&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;5e76792dfeb4f50dbf4f98a2cae2e41f&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/elena/Documents/MavenProjects/demo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "spring.configuration.checksum": "5e76792dfeb4f50dbf4f98a2cae2e41f",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;sqlserver&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlserver"
     ],
-    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;,
-      &quot;module&quot;,
-      &quot;repository&quot;
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Stavros\Downloads\Pfizer Software &amp; Cloud Engineering Bootcamp\Sacchon\Sacchon\src\main\resources\META-INF" />
@@ -153,6 +134,8 @@
       <list>
         <item itemvalue="Application.SacchonApplication" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.SacchonApplication" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -168,6 +151,7 @@
       <workItem from="1676051900660" duration="9593000" />
       <workItem from="1676066436592" duration="2116000" />
       <workItem from="1676295367557" duration="2616000" />
+      <workItem from="1677075026180" duration="29000" />
     </task>
     <task id="LOCAL-00001" summary="Maven dependencies">
       <created>1675961589568</created>
